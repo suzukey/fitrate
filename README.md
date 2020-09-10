@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <em>Calculate the length of the sides that fit into the maximum volume</em>
+  <em>Calculate the length of the sides that fit into the limited volume</em>
 </p>
 
 <p align="center">
