@@ -35,7 +35,9 @@ $ pip3 install fitrate
 ## Example
 
 ```python
+from fitrate.calc import calc
 
+print(calc((400, 300), 60000))
 ```
 
 <p align="center">&mdash; 🎞️ &mdash;</p>
