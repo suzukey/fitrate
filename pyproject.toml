@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fitrate"
-version = "0.1.2"
+version = "0.2.0"
 description = "Calculate the length of the sides that fit into the limited volume"
 authors = ["suzukey <suzukei0208@gmail.com>"]
 
