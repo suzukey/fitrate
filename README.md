@@ -35,7 +35,7 @@ $ pip3 install fitrate
 ## Example
 
 ```python
-from fitrate.calc import calc
+from fitrate import calc
 
 print(calc((400, 300), 60000))
 ```
