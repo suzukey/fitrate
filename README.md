@@ -38,6 +38,7 @@ $ pip3 install fitrate
 from fitrate import calc
 
 print(calc((400, 300), 60000))
+# (282, 212)
 ```
 
 <p align="center">&mdash; 🎞️ &mdash;</p>
