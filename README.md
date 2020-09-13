@@ -7,6 +7,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/suzukey/fitrate/actions?query=workflow%3ATest" target="_blank">
+    <img src="https://github.com/suzukey/fitrate/workflows/Test/badge.svg" alt="Test">
+  </a>
+
+  <a href="https://codecov.io/gh/suzukey/fitrate" target="_blank">
+    <img src="https://img.shields.io/codecov/c/gh/suzukey/fitrate" alt="Coverage">
+  </a>
+
   <a href="https://pypi.org/project/fitrate/" target="_blank">
     <img src="https://img.shields.io/pypi/v/fitrate?color=blue" alt="Package version">
   </a>
