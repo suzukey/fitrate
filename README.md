@@ -43,9 +43,22 @@ $ pip3 install fitrate
 ## Example
 
 ```python
-from fitrate import calc
+from fitrate import contain
 
-print(calc((400, 300), 60000))
+print(contain((200, 200), 60000))
+# (244, 244)
+
+print(contain((400, 300), 60000))
+# (282, 212)
+
+# -----------
+
+from fitrate import scale-down
+
+print(scale-down((200, 200), 60000))
+# (200, 200)
+
+print(scale-down((400, 300), 60000))
 # (282, 212)
 ```
 
