@@ -21,8 +21,9 @@ jobs:
         run: poetry install --no-dev
       - name: Build package
         run: poetry build
-      - name: Publish to PyPI
-        run: poetry publish -u $PYPI_USERNAME -p $PYPI_PASSWORD
+      - name: Configure Poetry
+        run: poetry config pypi-token.pypi $PYPI_TOKEN
         env:
-          PYPI_USERNAME: __token__
-          PYPI_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+      - name: Publish to PyPI
+        run: poetry publish
